@@ -7,6 +7,5 @@ flask_wtf
 wtforms
 flask_cors
 flask_mail
-traceback
 json
 base64
