@@ -25,8 +25,8 @@ def validate_json(f):
         # Do something with your request here
         try:
             request.get_json()
-        except Exception, e:
-            print e
+        except Exception:
+            #print e
             msg = "payload must be a valid json"
             return (jsonify({'response_status': cts.RESPONSE_ERROR,
                               'response_message': msg}), 400)
@@ -41,7 +41,7 @@ def is_json():
     """Validate if given input is json string"""
     try:
         json_object = json.loads(request.form)
-    except ValueError, e:
+    except ValueError:
         #print e
         return False
     return True, json_object

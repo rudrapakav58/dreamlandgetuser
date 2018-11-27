@@ -10,8 +10,7 @@ import base64
 from flask_login import current_user
 from flask_login import login_user, logout_user, login_required
 from flask import session as flask_sess
-from forms import LoginForm, RegistrationForm
-from flask_bcrypt import Bcrypt
+#from forms import LoginForm, RegistrationForm
 import smtplib
 from email.mime.text import MIMEText
 import random
@@ -114,7 +113,7 @@ def index():
 
 @blueprint.route('/register', methods=['GET', 'POST'])
 def adminRegister():
-    form=RegistrationForm(request.form)
+    #form=RegistrationForm(request.form)
 
     if request.method == "POST":
         result = request.form.to_dict()
@@ -195,7 +194,7 @@ def adminRegister():
 @blueprint.route('/login', methods=['GET', 'POST'])
 def Login():
     error = None
-    login_form = LoginForm(csrf_enabled=True)
+    #login_form = LoginForm(csrf_enabled=True)
     if request.method == 'POST':
         email = request.form['mail']
         password = request.form['password']
@@ -222,7 +221,7 @@ def Login():
         elif str(email) == mail_user[0]:
             cur.execute("SELECT password From test_user where email='{}'".format(email))
             password_user = cur.fetchone()
-            print password_user[0]
+            #print password_user[0]
             # enc = base64.b64encode(password.encode())
             # enc = enc.decode()
             if password_user[0] == str(password):

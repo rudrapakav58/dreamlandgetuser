@@ -177,3 +177,11 @@
 15:13:10 - werkzeug -  * Restarting with stat
 15:13:11 - werkzeug -  * Debugger is active!
 15:13:11 - werkzeug -  * Debugger PIN: 230-767-408
+15:24:20 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/run.py', reloading
+15:24:21 - werkzeug -  * Restarting with stat
+15:24:23 - werkzeug -  * Debugger is active!
+15:24:23 - werkzeug -  * Debugger PIN: 230-767-408
+15:27:50 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+15:27:50 - werkzeug -  * Restarting with stat
+15:27:51 - werkzeug -  * Debugger is active!
+15:27:51 - werkzeug -  * Debugger PIN: 105-900-623
