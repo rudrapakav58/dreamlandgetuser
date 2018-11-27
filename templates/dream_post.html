@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+#respond {
+  margin-top: 40px;
+}
+#respond input[type='text'],
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  border: 1px solid rgba(139, 180, 235, 2);
+  line-height: 1.4em;
+}
+#respond textarea1 {
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  border: 1px solid rgba(139, 180, 235, 2);
+  line-height: 1.4em;
+}
+.comment{
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  position:center;
+  border: 1px solid rgba(139, 180, 235, 2);
+  text-align:center;
+  line-height: 1.4em;
+}
+.comment span{
+  display:inline-block;
+}
+    </style>
+</head>
+<body>
+<div id="respond">
+    <h1 style="text-align:center;color:#A4A355">Welcome to DreamLand</h1>
+  <h3>Your dream</h3>
+  <form method="post" >
+    <label for="comment_author" class="required">Dream Type</label>
+    <input type="text" name="dream_type" id="comment_author" value="" tabindex="1" required="required">
+    <label for="dream" class="required">What Happened</label>
+    <textarea name="dream" id="dream" rows="10" tabindex="4"  required="required"></textarea>
+    <input type="hidden" name="dream_description" value="description"/>
+      <div>
+            <label>Category</label>
+            <select name="category"  required>
+                <option value="private">Private</option>
+                <option value="public">public</option>
+            </select>
+        </div>
+      <br/>
+      <div style="text-align:center;color:#828081">
+    <input name="submit" style="color:red;height:100px;width:100px" type="submit" value="Post">
+      </div>
+  </form>
+
+</div><br/><h2 style="text-align:center;color:red">{{msg}}</h2>
+<h3 >Your last dream</h3>
+{% for items in dream_user %}
+<h4 style="color:#474646">{{items}}</h4><br/>
+{%endfor%}
+</body></html>
