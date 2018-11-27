@@ -7,5 +7,3 @@ flask_wtf
 wtforms
 flask_cors
 flask_mail
-json
-base64
