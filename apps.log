@@ -8,3 +8,157 @@
 11:40:21 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:40:21] "GET /post HTTP/1.1" 302 -
 11:40:21 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:40:21] "GET /login?next=%2Fpost HTTP/1.1" 200 -
 11:40:23 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:40:23] "GET /favicon.ico HTTP/1.1" 200 -
+11:43:15 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:43:15] "GET / HTTP/1.1" 302 -
+11:43:15 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:43:15] "GET /login?next=%2F HTTP/1.1" 200 -
+11:43:17 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:43:17] "GET /favicon.ico HTTP/1.1" 200 -
+11:43:21 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:43:21] "GET /post HTTP/1.1" 302 -
+11:43:21 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:43:21] "GET /login?next=%2Fpost HTTP/1.1" 200 -
+11:43:23 - werkzeug - 127.0.0.1 - - [27/Nov/2018 11:43:23] "GET /favicon.ico HTTP/1.1" 200 -
+11:52:49 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+11:52:49 - werkzeug -  * Restarting with stat
+11:52:50 - werkzeug -  * Debugger is active!
+11:52:50 - werkzeug -  * Debugger PIN: 230-767-408
+12:16:44 - werkzeug -  * Detected change in '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/__init__.py', reloading
+12:16:44 - werkzeug -  * Restarting with stat
+12:16:46 - werkzeug -  * Debugger is active!
+12:16:46 - werkzeug -  * Debugger PIN: 230-767-408
+12:17:59 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+12:17:59 - werkzeug -  * Restarting with stat
+12:18:00 - werkzeug -  * Debugger is active!
+12:18:00 - werkzeug -  * Debugger PIN: 230-767-408
+12:18:52 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+12:18:52 - werkzeug -  * Restarting with stat
+12:18:53 - werkzeug -  * Debugger is active!
+12:18:53 - werkzeug -  * Debugger PIN: 230-767-408
+12:37:30 - werkzeug -  * Detected change in '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/__init__.py', reloading
+12:37:30 - werkzeug -  * Restarting with stat
+12:37:31 - werkzeug -  * Debugger is active!
+12:37:31 - werkzeug -  * Debugger PIN: 230-767-408
+12:55:27 - werkzeug -  * Detected change in '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/__init__.py', reloading
+12:55:27 - werkzeug -  * Restarting with stat
+12:55:28 - werkzeug -  * Debugger is active!
+12:55:28 - werkzeug -  * Debugger PIN: 230-767-408
+13:00:01 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+13:00:01 - werkzeug -  * Restarting with stat
+13:00:02 - werkzeug -  * Debugger is active!
+13:00:03 - werkzeug -  * Debugger PIN: 230-767-408
+13:00:46 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:00:46] "GET / HTTP/1.1" 302 -
+13:00:46 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:00:46] "GET /login?next=%2F HTTP/1.1" 200 -
+13:00:46 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+13:00:47 - werkzeug -  * Restarting with stat
+13:00:47 - werkzeug -  * Debugger is active!
+13:00:47 - werkzeug -  * Debugger PIN: 230-767-408
+13:00:52 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:00:52] "GET /favicon.ico HTTP/1.1" 200 -
+13:00:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:00:59] "GET /reg HTTP/1.1" 200 -
+13:00:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:00:59] "GET /favicon.ico HTTP/1.1" 200 -
+13:11:28 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+13:11:28 - werkzeug -  * Restarting with stat
+13:11:29 - werkzeug -  * Debugger is active!
+13:11:29 - werkzeug -  * Debugger PIN: 230-767-408
+13:11:36 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:11:36] "GET / HTTP/1.1" 302 -
+13:11:36 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:11:36] "GET /login?next=%2F HTTP/1.1" 200 -
+13:11:38 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:11:38] "GET /favicon.ico HTTP/1.1" 200 -
+13:12:28 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:12:28] "GET / HTTP/1.1" 302 -
+13:12:28 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:12:28] "GET /login?next=%2F HTTP/1.1" 200 -
+13:12:29 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:12:29] "GET /favicon.ico HTTP/1.1" 200 -
+13:13:54 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+13:13:54 - werkzeug -  * Restarting with stat
+13:13:54 - werkzeug -  * Debugger is active!
+13:13:54 - werkzeug -  * Debugger PIN: 230-767-408
+13:13:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:13:59] "GET / HTTP/1.1" 302 -
+13:13:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:13:59] "GET /login?next=%2F HTTP/1.1" 200 -
+13:14:01 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:14:01] "GET /favicon.ico HTTP/1.1" 200 -
+13:14:15 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:14:15] "GET /static/fonts/webfonts/fa-solid-900.html HTTP/1.1" 304 -
+13:14:43 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:14:43] "POST /register HTTP/1.1" 302 -
+13:14:43 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:14:43] "GET /login HTTP/1.1" 200 -
+13:14:44 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:14:44] "GET /favicon.ico HTTP/1.1" 200 -
+13:33:47 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:33:47] "GET /register HTTP/1.1" 302 -
+13:33:47 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:33:47] "GET /login HTTP/1.1" 200 -
+13:33:47 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:33:47] "GET /favicon.ico HTTP/1.1" 200 -
+13:34:29 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+13:34:29 - werkzeug -  * Restarting with stat
+13:34:30 - werkzeug -  * Debugger is active!
+13:34:30 - werkzeug -  * Debugger PIN: 230-767-408
+13:34:38 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:34:38] "GET /register HTTP/1.1" 302 -
+13:34:38 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:34:38] "GET /login?next=%2Fregister HTTP/1.1" 200 -
+13:34:38 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:34:38] "GET /favicon.ico HTTP/1.1" 200 -
+13:38:21 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+13:38:22 - werkzeug -  * Restarting with stat
+13:38:23 - werkzeug -  * Debugger is active!
+13:38:23 - werkzeug -  * Debugger PIN: 230-767-408
+13:48:04 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+13:48:05 - werkzeug -  * Restarting with stat
+13:48:05 - werkzeug -  * Debugger is active!
+13:48:06 - werkzeug -  * Debugger PIN: 230-767-408
+13:55:29 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+13:55:29 - werkzeug -  * Restarting with stat
+13:55:29 - werkzeug -  * Debugger is active!
+13:55:29 - werkzeug -  * Debugger PIN: 230-767-408
+13:55:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:55:34] "GET / HTTP/1.1" 302 -
+13:55:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:55:34] "GET /login?next=%2F HTTP/1.1" 200 -
+13:55:36 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:55:36] "GET /favicon.ico HTTP/1.1" 200 -
+13:56:01 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:56:01] "POST /register HTTP/1.1" 302 -
+13:56:01 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:56:01] "GET /login?next=%2Fregister HTTP/1.1" 200 -
+13:56:01 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:56:01] "GET /favicon.ico HTTP/1.1" 200 -
+13:57:00 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+13:57:00 - werkzeug -  * Restarting with stat
+13:57:01 - werkzeug -  * Debugger is active!
+13:57:01 - werkzeug -  * Debugger PIN: 230-767-408
+13:57:06 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:57:06] "GET / HTTP/1.1" 302 -
+13:57:06 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:57:06] "GET /login?next=%2F HTTP/1.1" 200 -
+13:57:07 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:57:07] "GET /favicon.ico HTTP/1.1" 200 -
+13:57:39 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:57:39] "POST /register HTTP/1.1" 302 -
+13:57:39 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:57:39] "GET /login?next=%2Fregister HTTP/1.1" 200 -
+13:57:39 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:57:39] "GET /favicon.ico HTTP/1.1" 200 -
+13:58:53 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+13:58:53 - werkzeug -  * Restarting with stat
+13:58:54 - werkzeug -  * Debugger is active!
+13:58:54 - werkzeug -  * Debugger PIN: 230-767-408
+13:58:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:58:59] "GET / HTTP/1.1" 302 -
+13:58:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:58:59] "GET /login?next=%2F HTTP/1.1" 200 -
+13:59:00 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:59:00] "GET /favicon.ico HTTP/1.1" 200 -
+13:59:38 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:59:38] "POST /register HTTP/1.1" 200 -
+13:59:38 - werkzeug - 127.0.0.1 - - [27/Nov/2018 13:59:38] "GET /favicon.ico HTTP/1.1" 200 -
+14:00:06 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:00:06] "POST / HTTP/1.1" 200 -
+14:00:07 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:00:07] "GET /favicon.ico HTTP/1.1" 200 -
+14:01:27 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+14:01:27 - werkzeug -  * Restarting with stat
+14:01:27 - werkzeug -  * Debugger is active!
+14:01:27 - werkzeug -  * Debugger PIN: 230-767-408
+14:01:32 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:01:32] "GET / HTTP/1.1" 302 -
+14:01:32 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:01:32] "GET /login?next=%2F HTTP/1.1" 200 -
+14:01:33 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:01:33] "GET /favicon.ico HTTP/1.1" 200 -
+14:02:00 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:02:00] "POST /register HTTP/1.1" 200 -
+14:02:00 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:02:00] "GET /favicon.ico HTTP/1.1" 200 -
+14:02:51 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:02:51] "POST /register HTTP/1.1" 200 -
+14:02:51 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:02:51] "GET /favicon.ico HTTP/1.1" 200 -
+14:03:07 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:03:07] "GET /register HTTP/1.1" 302 -
+14:03:07 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:03:07] "GET /login HTTP/1.1" 200 -
+14:03:08 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:03:08] "GET /favicon.ico HTTP/1.1" 200 -
+14:03:16 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:03:16] "GET /register HTTP/1.1" 302 -
+14:03:16 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:03:16] "GET /login HTTP/1.1" 200 -
+14:03:16 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:03:16] "GET /favicon.ico HTTP/1.1" 200 -
+14:09:16 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:09:16] "POST /register HTTP/1.1" 200 -
+14:09:16 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:09:16] "GET /favicon.ico HTTP/1.1" 200 -
+14:09:37 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:09:37] "POST /register HTTP/1.1" 200 -
+14:09:38 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:09:38] "GET /favicon.ico HTTP/1.1" 200 -
+14:10:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:10:59] "POST /register HTTP/1.1" 200 -
+14:10:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:10:59] "GET /favicon.ico HTTP/1.1" 200 -
+14:11:02 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:11:02] "POST /logout HTTP/1.1" 200 -
+14:11:02 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:11:02] "GET /favicon.ico HTTP/1.1" 200 -
+14:12:38 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+14:12:38 - werkzeug -  * Restarting with stat
+14:12:38 - werkzeug -  * Debugger is active!
+14:12:38 - werkzeug -  * Debugger PIN: 230-767-408
+14:12:43 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:12:43] "GET / HTTP/1.1" 302 -
+14:12:43 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:12:43] "GET /login?next=%2F HTTP/1.1" 200 -
+14:12:45 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:12:45] "GET /favicon.ico HTTP/1.1" 200 -
+14:13:49 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:13:49] "POST /register HTTP/1.1" 200 -
+14:13:49 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:13:49] "GET /favicon.ico HTTP/1.1" 200 -
+14:13:53 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:13:53] "POST /logout HTTP/1.1" 302 -
+14:13:53 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:13:53] "GET /login HTTP/1.1" 200 -
+14:13:54 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:13:54] "GET /favicon.ico HTTP/1.1" 200 -
+14:17:38 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+14:17:38 - werkzeug -  * Restarting with stat
+14:17:39 - werkzeug -  * Debugger is active!
+14:17:39 - werkzeug -  * Debugger PIN: 230-767-408
