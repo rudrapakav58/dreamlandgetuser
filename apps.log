@@ -162,3 +162,7 @@
 14:17:38 - werkzeug -  * Restarting with stat
 14:17:39 - werkzeug -  * Debugger is active!
 14:17:39 - werkzeug -  * Debugger PIN: 230-767-408
+14:39:50 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/main/views.py', reloading
+14:39:50 - werkzeug -  * Restarting with stat
+14:39:51 - werkzeug -  * Debugger is active!
+14:39:51 - werkzeug -  * Debugger PIN: 230-767-408

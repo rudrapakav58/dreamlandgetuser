@@ -118,7 +118,7 @@ def adminRegister():
 
     if request.method == "POST":
         result = request.form.to_dict()
-        print result
+        #print result
         try:
             mail_id=result['mail']
             db = psycopg2.connect(
@@ -199,7 +199,7 @@ def Login():
     if request.method == 'POST':
         email = request.form['mail']
         password = request.form['password']
-        print type(password)
+        #print type(password)
         db = psycopg2.connect(
             database="dcore2hl3fm13v",
             user="pnevkxlqdlmdif",
@@ -215,7 +215,7 @@ def Login():
         cur = db.cursor()
         cur.execute("SELECT email,password FROM test_user where email='{}'".format(email))
         mail_user = cur.fetchone()
-        print mail_user
+        #print mail_user
         if mail_user == None:
             msg = "Username is incorrect."
             return render_template('login.html', msg=msg)
