@@ -2,3 +2,6 @@ Flask==0.10.1
 gunicorn
 psycopg2
 Flask-Login
+flask_sqlalchemy
+flask_wtf
+wtforms

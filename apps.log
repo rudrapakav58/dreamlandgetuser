@@ -232,3 +232,7 @@
 15:42:33 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:33] "GET / HTTP/1.1" 302 -
 15:42:33 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:33] "GET /login?next=%2F HTTP/1.1" 200 -
 15:42:35 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:35] "GET /favicon.ico HTTP/1.1" 200 -
+18:30:35 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18:30:35 - werkzeug -  * Restarting with stat
+18:30:36 - werkzeug -  * Debugger is active!
+18:30:36 - werkzeug -  * Debugger PIN: 105-900-623
