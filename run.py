@@ -61,7 +61,6 @@ def error_500(e):
 if __name__ == '__main__':
     # @Todo: Convert logger to module specific
     logger = utl.logging
-
     port = 5000
     if len(sys.argv) > 1:
         port = int(sys.argv[1])

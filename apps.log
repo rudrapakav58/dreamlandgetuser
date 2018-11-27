@@ -166,3 +166,10 @@
 14:39:50 - werkzeug -  * Restarting with stat
 14:39:51 - werkzeug -  * Debugger is active!
 14:39:51 - werkzeug -  * Debugger PIN: 230-767-408
+14:48:58 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/run.py', reloading
+14:48:58 - werkzeug -  * Restarting with stat
+14:48:58 - werkzeug -  * Debugger is active!
+14:48:58 - werkzeug -  * Debugger PIN: 230-767-408
+14:49:14 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:49:14] "GET / HTTP/1.1" 302 -
+14:49:14 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:49:14] "GET /login?next=%2F HTTP/1.1" 200 -
+14:49:15 - werkzeug - 127.0.0.1 - - [27/Nov/2018 14:49:15] "GET /favicon.ico HTTP/1.1" 200 -
