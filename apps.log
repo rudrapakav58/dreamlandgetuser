@@ -185,3 +185,50 @@
 15:27:50 - werkzeug -  * Restarting with stat
 15:27:51 - werkzeug -  * Debugger is active!
 15:27:51 - werkzeug -  * Debugger PIN: 105-900-623
+15:38:28 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+15:38:28 - werkzeug -  * Restarting with stat
+15:38:29 - werkzeug -  * Debugger is active!
+15:38:29 - werkzeug -  * Debugger PIN: 105-900-623
+15:38:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:34] "GET / HTTP/1.1" 302 -
+15:38:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:34] "GET /login?next=%2F HTTP/1.1" 500 -
+15:38:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:34] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+15:38:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:34] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+15:38:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:34] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+15:38:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:34] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+15:38:34 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:34] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+15:38:35 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:38:35] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+15:39:07 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+15:39:07 - werkzeug -  * Restarting with stat
+15:39:08 - werkzeug -  * Debugger is active!
+15:39:08 - werkzeug -  * Debugger PIN: 105-900-623
+15:39:13 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:13] "GET / HTTP/1.1" 302 -
+15:39:13 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:13] "GET /login?next=%2F HTTP/1.1" 200 -
+15:39:14 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:14] "GET /favicon.ico HTTP/1.1" 200 -
+15:39:29 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:29] "GET /register HTTP/1.1" 302 -
+15:39:29 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:29] "GET /login HTTP/1.1" 200 -
+15:39:33 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:33] "GET /favicon.ico HTTP/1.1" 200 -
+15:39:42 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:42] "GET /register HTTP/1.1" 302 -
+15:39:42 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:42] "GET /login HTTP/1.1" 200 -
+15:39:46 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:39:46] "GET /favicon.ico HTTP/1.1" 200 -
+15:40:51 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+15:40:51 - werkzeug -  * Restarting with stat
+15:40:52 - werkzeug -  * Debugger is active!
+15:40:52 - werkzeug -  * Debugger PIN: 105-900-623
+15:40:57 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:40:57] "GET / HTTP/1.1" 302 -
+15:40:57 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:40:57] "GET /login?next=%2F HTTP/1.1" 200 -
+15:40:59 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:40:59] "GET /favicon.ico HTTP/1.1" 200 -
+15:41:11 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:41:11] "GET /register HTTP/1.1" 302 -
+15:41:11 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:41:11] "GET /login HTTP/1.1" 200 -
+15:41:20 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:41:20] "GET /favicon.ico HTTP/1.1" 200 -
+15:42:04 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:04] "GET /post HTTP/1.1" 302 -
+15:42:04 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:04] "GET /login?next=%2Fpost HTTP/1.1" 200 -
+15:42:06 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:06] "GET /favicon.ico HTTP/1.1" 200 -
+15:42:15 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:15] "GET /ju HTTP/1.1" 200 -
+15:42:15 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:15] "GET /favicon.ico HTTP/1.1" 200 -
+15:42:27 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+15:42:27 - werkzeug -  * Restarting with stat
+15:42:28 - werkzeug -  * Debugger is active!
+15:42:28 - werkzeug -  * Debugger PIN: 105-900-623
+15:42:33 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:33] "GET / HTTP/1.1" 302 -
+15:42:33 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:33] "GET /login?next=%2F HTTP/1.1" 200 -
+15:42:35 - werkzeug - 127.0.0.1 - - [27/Nov/2018 15:42:35] "GET /favicon.ico HTTP/1.1" 200 -

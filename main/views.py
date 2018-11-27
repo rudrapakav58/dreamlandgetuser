@@ -241,7 +241,7 @@ def Login():
         logout_user()
         flask_sess.clear()
         logout_user()
-    return render_template('index.html', error=error, login_form=login_form)
+    return render_template('index.html')
 @blueprint.route('/logout',methods=['GET', 'POST'])
 def logout():
     """Logout the current user."""
