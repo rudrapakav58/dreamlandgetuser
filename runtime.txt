@@ -7,3 +7,4 @@ flask_wtf
 wtforms
 flask_cors
 flask_mail
+passlib
