@@ -3,6 +3,7 @@ import sys
 from flask import Flask
 import extensions
 from main import views,post
+import utils as utl
 from flask import jsonify
 from flask_cors import CORS
 import emails
@@ -54,7 +55,7 @@ def error_500(e):
     return (jsonify({'response_status': "ERROR",
                      'response_message': "Internal Server Error"}), 200)
 if __name__ == '__main__':
-    #logger = utl.logging
+    logger = utl.logging
     port = 5001
     if len(sys.argv) > 1:
         port = int(sys.argv[1])

@@ -350,3 +350,13 @@
 14:25:58 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:25:58] "GET /post HTTP/1.1" 302 -
 14:25:58 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:25:58] "GET /login?next=%2Fpost HTTP/1.1" 200 -
 14:25:58 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:25:58] "GET /favicon.ico HTTP/1.1" 200 -
+14:33:23 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:33:23] "GET / HTTP/1.1" 302 -
+14:33:23 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:33:23] "GET /login?next=%2F HTTP/1.1" 200 -
+14:33:25 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:33:25] "GET /favicon.ico HTTP/1.1" 200 -
+14:33:32 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:33:32] "GET / HTTP/1.1" 302 -
+14:33:32 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:33:32] "GET /login?next=%2F HTTP/1.1" 200 -
+14:33:33 - werkzeug - 127.0.0.1 - - [28/Nov/2018 14:33:33] "GET /favicon.ico HTTP/1.1" 200 -
+14:36:32 - werkzeug -  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+14:36:32 - werkzeug -  * Restarting with stat
+14:36:33 - werkzeug -  * Debugger is active!
+14:36:33 - werkzeug -  * Debugger PIN: 105-900-623
