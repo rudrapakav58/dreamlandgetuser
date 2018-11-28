@@ -8,3 +8,4 @@ wtforms
 flask_cors
 flask_mail
 passlib
+psycopg2-binary
