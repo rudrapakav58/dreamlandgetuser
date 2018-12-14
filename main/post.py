@@ -6,8 +6,7 @@ import constants as cts
 from utils import validate_json, validate_registration_input
 from flask import jsonify
 import datetime as dttim
-__author__ = 'hughson.simon@gmail.com'
-blueprint = Blueprint('herbs', __name__)
+blueprint = Blueprint('post', __name__)
 @blueprint.route("/post",methods=['GET', 'POST'])
 # @login_required
 def post():

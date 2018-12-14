@@ -2031,3 +2031,9 @@
 16:59:13 - werkzeug - 127.0.0.1 - - [14/Dec/2018 16:59:13] "GET /logout HTTP/1.1" 302 -
 16:59:13 - werkzeug - 127.0.0.1 - - [14/Dec/2018 16:59:13] "GET /login HTTP/1.1" 200 -
 16:59:14 - werkzeug - 127.0.0.1 - - [14/Dec/2018 16:59:14] "GET /favicon.ico HTTP/1.1" 200 -
+17:18:17 - werkzeug -  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+17:18:17 - werkzeug -  * Restarting with stat
+17:18:18 - werkzeug -  * Debugger is active!
+17:18:18 - werkzeug -  * Debugger pin code: 105-900-623
+17:18:58 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/run.py', reloading
+17:18:58 - werkzeug -  * Restarting with stat

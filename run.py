@@ -42,7 +42,4 @@ def error_500(e):
                      'response_message': "Internal Server Error"}), 200)
 if __name__ == '__main__':
     logger = utl.logging
-    port = 5001
-    if len(sys.argv) > 1:
-        port = int(sys.argv[1])
-    app.run(host='0.0.0.0', debug=True, port=port)
+    app.run(host='0.0.0.0', debug=True)
