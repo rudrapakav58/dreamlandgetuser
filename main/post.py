@@ -33,10 +33,10 @@ def post():
             # post_type = result['category']
             # msg = "Thanks for feeling  out your dream"
             db = psycopg2.connect(
-                database="Dreamland",
-                user="postgres",
-                password="1234",
-                host="localhost"
+                database="d5c3kekvf7cuup",
+                user="gpthqvlaxsrwoq",
+                password="9e12360d9c5c3faef58af66954d23af49d19991549fdd787969b9a80aa8e9c70",
+                host="ec2-54-235-156-60.compute-1.amazonaws.com"
             )
             cur = db.cursor()
             cur.execute("SELECT dream From user_dreams1")
@@ -55,18 +55,18 @@ def post():
             import random
             for x in range(1):
                 id1 = random.randint(1, 100000)
-            # db = psycopg2.connect(
-            #     database="dcore2hl3fm13v",
-            #     user="pnevkxlqdlmdif",
-            #     password="4d4a6fea5afacaab6d2e7372233725045c0b183e96925dec212ddf0ac468cdc1",
-            #     host="ec2-174-129-192-200.compute-1.amazonaws.com"
-            # )
             db = psycopg2.connect(
-                database="Dreamland",
-                user="postgres",
-                password="1234",
-                host="localhost"
+                database="d5c3kekvf7cuup",
+                user="gpthqvlaxsrwoq",
+                password="9e12360d9c5c3faef58af66954d23af49d19991549fdd787969b9a80aa8e9c70",
+                host="ec2-54-235-156-60.compute-1.amazonaws.com"
             )
+            # db = psycopg2.connect(
+            #     database="Dreamland",
+            #     user="postgres",
+            #     password="1234",
+            #     host="localhost"
+            # )
             cur = db.cursor()
             cur.execute(
                 "INSERT INTO user_dreams1 (id,user_name,date_post,dream) VALUES ('{}',0,0,'{}')".format(
@@ -76,18 +76,18 @@ def post():
             db.commit()
             print(result['dream'])
             db.close()
-            # db = psycopg2.connect(
-            #     database="dcore2hl3fm13v",
-            #     user="pnevkxlqdlmdif",
-            #     password="4d4a6fea5afacaab6d2e7372233725045c0b183e96925dec212ddf0ac468cdc1",
-            #     host="ec2-174-129-192-200.compute-1.amazonaws.com"
-            # )
             db = psycopg2.connect(
-                database="Dreamland",
-                user="postgres",
-                password="1234",
-                host="localhost"
+                database="d5c3kekvf7cuup",
+                user="gpthqvlaxsrwoq",
+                password="9e12360d9c5c3faef58af66954d23af49d19991549fdd787969b9a80aa8e9c70",
+                host="ec2-54-235-156-60.compute-1.amazonaws.com"
             )
+            # db = psycopg2.connect(
+            #     database="Dreamland",
+            #     user="postgres",
+            #     password="1234",
+            #     host="localhost"
+            # )
             cur = db.cursor()
             cur.execute("SELECT dream From user_dreams1")
             dream_user1 = reversed(cur.fetchall())
