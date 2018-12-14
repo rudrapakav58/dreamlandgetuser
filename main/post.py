@@ -1,11 +1,5 @@
 from flask import abort, Blueprint, session, redirect, render_template, request, url_for
-from flask_login import current_user
-from flask_login import login_required
 import psycopg2
-import constants as cts
-from utils import validate_json, validate_registration_input
-from flask import jsonify
-import datetime as dttim
 blueprint = Blueprint('post', __name__)
 @blueprint.route("/post",methods=['GET', 'POST'])
 # @login_required

@@ -2124,3 +2124,21 @@
 17:51:10 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:51:10] "GET /logout HTTP/1.1" 302 -
 17:51:10 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:51:10] "GET /login HTTP/1.1" 200 -
 17:51:10 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:51:10] "GET /favicon.ico HTTP/1.1" 200 -
+18:15:38 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/extensions.py', reloading
+18:15:39 - werkzeug -  * Restarting with stat
+18:29:57 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+18:29:57 - werkzeug -  * Restarting with stat
+18:29:58 - werkzeug -  * Debugger is active!
+18:29:58 - werkzeug -  * Debugger pin code: 105-900-623
+18:30:03 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:30:03] "GET / HTTP/1.1" 302 -
+18:30:03 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:30:03] "GET /login?next=%2F HTTP/1.1" 200 -
+18:30:04 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:30:04] "GET /favicon.ico HTTP/1.1" 200 -
+18:30:54 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:30:54] "GET /post HTTP/1.1" 200 -
+18:30:55 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:30:55] "GET /favicon.ico HTTP/1.1" 200 -
+18:31:02 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:31:02] "GET /logout HTTP/1.1" 302 -
+18:31:02 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:31:02] "GET /login HTTP/1.1" 200 -
+18:31:03 - werkzeug - 127.0.0.1 - - [14/Dec/2018 18:31:03] "GET /favicon.ico HTTP/1.1" 200 -
+18:33:23 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/run.py', reloading
+18:33:23 - werkzeug -  * Restarting with stat
+18:33:24 - werkzeug -  * Debugger is active!
+18:33:24 - werkzeug -  * Debugger pin code: 105-900-623

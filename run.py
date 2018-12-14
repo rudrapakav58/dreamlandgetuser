@@ -41,4 +41,5 @@ def error_500(e):
     return (jsonify({'response_status': "ERROR",
                      'response_message': "Internal Server Error"}), 200)
 if __name__ == '__main__':
+    #logger = utl.logging
     app.run(host='0.0.0.0', debug=True)
