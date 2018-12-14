@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    	<title>Dreams</title>
     <meta charset="UTF-8">
+    <style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.user {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+
+}
+
+    </style>
+
     <style>
 #respond {
   margin-top: 40px;
@@ -33,20 +51,135 @@
 .comment span{
   display:inline-block;
 }
+
+
+
+/* ----------------------------------
+Css Profile Edit Dropdown
+Author: iModDesign
+Version: 1.0
+------------------------------------ */
+ul, li {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+a {text-decoration:none;}
+
+.profile-wrapper {
+	width:200px;
+	position:relative;
+	margin:50px auto;
+}
+.profile-wrapper::after {
+	content: '';
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	border-color: #333 transparent transparent;
+	border-width: 6px;
+	border-style: solid;
+}
+.profile-wrapper::before {
+	content: '';
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	border-color: #eee transparent transparent;
+	border-width: 6px;
+	border-style: solid;
+}
+.profile-wrapper:hover::after {
+	border-color: #111 transparent transparent;
+}
+
+.profile {
+	padding:10px;
+	border:1px solid #000;
+	border-radius:3px;
+	box-shadow:0 1px 0 #555 inset, 0 1px 7px #111;
+	background:-webkit-linear-gradient(#222, #111);
+}
+.profile:hover {
+	cursor:pointer;
+	background:-webkit-linear-gradient(#1f1f1f, #0a0a0a);
+}
+.profile .name {
+	font-size:12px;
+	color:#fff;
+	line-height:26px;
+	margin-left:10px;
+}
+.profile .name:hover {
+	color:#0088cc;
+}
+.profile img {
+	width:25px;
+	display:inline;
+	float:left;
+	border:1px solid #111;
+	border-radius:3px;
+	box-shadow:0 0 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+/* hide menu */
+.menu {
+	display:none;
+	clear:both;
+	margin:20px 0 0 0;
+}
+.menu li {
+	font-size:12px;
+	margin:0;
+  padding: 10px 4px;
+}
+.menu li a {
+	color:#555;
+}
+.menu li:hover > a{
+	color:#eee;
+}
+
+.menu li:hover{
+	border-left: 1px solid #111;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #111;
+  border-radius: 3px;
+}
+/* hover profile show menu */
+.profile:hover .menu {
+	display:block;
+}
     </style>
 </head>
-<body>
+<body bgcolor="#F3F0F3">
+<ul class="profile-wrapper" style="float:right;">
+			<li>
+				<!-- user profile -->
+				<div class="profile">
+					<a href="#" class="name">Rao</a>
+
+					<!-- more menu -->
+					<ul class="menu">
+						<li><a href="/profile" name="update" type="submit">Update Profile</a></li>
+						<li><a href="/posts" name="posts">posts&activity</a></li>
+						<li><a href="/logout" name="logout" type="button">Log out</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
 <div id="respond">
     <h1 style="text-align:center;color:#A4A355">Welcome to DreamLand</h1>
-  <h3>Your dream</h3>
-  <form method="post" >
-    <label for="comment_author" class="required">Dream Type</label>
+  <h3 >Your dream</h3>
+  <form action="/post" method="post" >
+    <label for="comment_author" class="required" >Dream Type</label>
     <input type="text" name="dream_type" id="comment_author" value="" tabindex="1" required="required">
-    <label for="dream" class="required">What Happened</label>
+    <label for="dream" class="required" >What Happened</label>
     <textarea name="dream" id="dream" rows="10" tabindex="4"  required="required"></textarea>
     <input type="hidden" name="dream_description" value="description"/>
       <div>
-            <label>Category</label>
+            <label >Category</label>
             <select name="category"  required>
                 <option value="private">Private</option>
                 <option value="public">public</option>
@@ -57,10 +190,19 @@
     <input name="submit" style="color:red;height:100px;width:100px" type="submit" value="Post">
       </div>
   </form>
-
 </div><br/><h2 style="text-align:center;color:red">{{msg}}</h2>
-<h3 >Your last dream</h3>
+<div style="float: right;">     <select name="category"  required>
+                <option value="private">Private</option>
+                <option value="public">public</option>
+            </select>
+        </div><br/><br/>
 {% for items in dream_user %}
-<h4 style="color:#474646">{{items}}</h4><br/>
+<div  style="text-align:center">Rao's</div>
+
+<form class="content" action="/delete" method="post">
+    <button style="float: right;" name="delete" value="delete">delete</button></form>
+<form class="content" action="/tag" method="post">
+    <button style="float: right;" name="tag" value="tag">tag</button></form><br/>
+<div class="center">{{items}}</div><br/>
 {%endfor%}
 </body></html>
