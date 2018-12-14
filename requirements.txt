@@ -1,4 +1,5 @@
 gunicorn
+Flask==0.10.1
 psycopg2
 Flask-Login
 flask_sqlalchemy
