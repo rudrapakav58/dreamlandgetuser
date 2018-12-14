@@ -2109,3 +2109,10 @@
 17:31:28 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:31:28] "GET /favicon.ico HTTP/1.1" 200 -
 17:32:10 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:32:10] "POST /post HTTP/1.1" 200 -
 17:32:10 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:32:10] "GET /favicon.ico HTTP/1.1" 200 -
+17:44:45 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+17:44:45 - werkzeug -  * Restarting with stat
+17:44:46 - werkzeug -  * Debugger is active!
+17:44:46 - werkzeug -  * Debugger pin code: 105-900-623
+17:44:51 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:44:51] "GET / HTTP/1.1" 302 -
+17:44:51 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:44:51] "GET /login?next=%2F HTTP/1.1" 200 -
+17:44:52 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:44:52] "GET /favicon.ico HTTP/1.1" 200 -
