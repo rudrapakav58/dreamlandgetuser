@@ -2037,3 +2037,75 @@
 17:18:18 - werkzeug -  * Debugger pin code: 105-900-623
 17:18:58 - werkzeug -  * Detected change in '/Users/mac/Desktop/new project/user_management/run.py', reloading
 17:18:58 - werkzeug -  * Restarting with stat
+17:26:39 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+17:26:39 - werkzeug -  * Restarting with stat
+17:26:39 - werkzeug -  * Debugger is active!
+17:26:39 - werkzeug -  * Debugger pin code: 105-900-623
+17:26:44 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:44] "GET / HTTP/1.1" 302 -
+17:26:44 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:44] "GET /login?next=%2F HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/webfontloader.min.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/Bootstrap/dist/css/bootstrap-reboot.css HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/Bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/Bootstrap/dist/css/bootstrap-grid.css HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/css/main.min.css HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/css/fonts.min.css HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/img/logo.png HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/img/logo-colored-small.png HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery-3.2.1.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery.appear.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery.mousewheel.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/perfect-scrollbar.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery.matchHeight.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/svgxuse.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/imagesloaded.pkgd.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/Headroom.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/velocity.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/ScrollMagic.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery.waypoints.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery.countTo.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/popper.min.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/material.min.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/bootstrap-select.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/smooth-scroll.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/selectize.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/swiper.jquery.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/moment.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/daterangepicker.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/simplecalendar.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/fullcalendar.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/isotope.pkgd.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/ajax-pagination.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/Chart.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/chartjs-plugin-deferred.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/circle-progress.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/loader.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/run-chart.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery.magnific-popup.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/jquery.gifplayer.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/mediaelement-and-player.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/mediaelement-playlist-plugin.min.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/js/base-init.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/Bootstrap/dist/js/bootstrap.bundle.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/fonts/fontawesome-all.js HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/svg-icons/sprites/icons.svg HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/img/landing-users.png HTTP/1.1" 200 -
+17:26:45 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:45] "GET /static/fonts/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 -
+17:26:46 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:46] "GET /favicon.ico HTTP/1.1" 200 -
+17:26:54 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:54] "GET /post HTTP/1.1" 500 -
+17:26:54 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:54] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+17:26:54 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:54] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+17:26:54 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:54] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+17:26:54 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:54] "GET /post?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+17:26:54 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:54] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+17:26:55 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:26:55] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+17:31:10 - werkzeug -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+17:31:10 - werkzeug -  * Restarting with stat
+17:31:11 - werkzeug -  * Debugger is active!
+17:31:11 - werkzeug -  * Debugger pin code: 105-900-623
+17:31:16 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:31:16] "GET / HTTP/1.1" 302 -
+17:31:16 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:31:16] "GET /login?next=%2F HTTP/1.1" 200 -
+17:31:17 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:31:17] "GET /favicon.ico HTTP/1.1" 200 -
+17:31:27 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:31:27] "GET /post HTTP/1.1" 200 -
+17:31:28 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:31:28] "GET /favicon.ico HTTP/1.1" 200 -
+17:32:10 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:32:10] "POST /post HTTP/1.1" 200 -
+17:32:10 - werkzeug - 127.0.0.1 - - [14/Dec/2018 17:32:10] "GET /favicon.ico HTTP/1.1" 200 -
